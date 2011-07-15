@@ -1,0 +1,17 @@
+<h2>View Draft</h2>
+<div class="box">
+  <div class="header">
+    <h2><%= @post.title.html_safe %></h2>
+    <!--Draggable--> 
+    <span class="draggable"></span> 
+    <!--Toggle--> 
+    <span class="toggle"></span> 
+  </div>
+  
+  <div class="content padding"> 
+    <div class="viewer" style="width:600px;">
+      <%= @post.abstract.html_safe %>
+    </div>
+  </div> <!-- .content padding -->
+</div> <!-- box -->
+

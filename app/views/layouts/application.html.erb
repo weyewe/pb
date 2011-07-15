@@ -1,0 +1,19 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>PembebasBangsa - Dashboard</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <%= csrf_meta_tag %>
+  <%= render :partial => "layouts/admin_css" %>
+  <%= render :partial => "layouts/admin_javascripts" %>
+  <%= include_tiny_mce_if_needed %>
+</head>
+
+<body class="altlayout"><!--Logo--> 
+  <%= render :partial => "layouts/header" %>
+
+  <%= render :partial =>"layouts/content" %>
+</body>
+</html>

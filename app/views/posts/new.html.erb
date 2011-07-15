@@ -1,0 +1,45 @@
+<!-- <%# form_for @post do |f| %>
+  <%#= f.text_area :content , :class =>"mceEditor" %>
+  <%#= f.submit "Submit" %>
+<%# end %> -->
+
+
+<div class="box">
+  <div class="header">
+    <h2>New Post</h2>
+    <!--Draggable--> 
+    <span class="draggable"></span> 
+    <!--Toggle--> 
+    <span class="toggle"></span> 
+  </div>
+  
+  <div class="content padding"> 
+    <!--Form Elements-->
+    <% form_for @post do |f| %>
+      <fieldset>
+        <legend>Abstract</legend>
+        <div class="field">
+          <!-- <label>Title</label>
+          <input type="text" class="large" /> -->
+          <%= f.label :title %>
+          <%= f.text_field :title, :class =>"large" %>
+        </div>
+        <div class="field">
+          <!-- <label>Textarea Input:</label>
+                 <textarea rows="7" cols="50" ></textarea> -->
+          <%= f.label :abstract %>
+          <%= f.text_area :abstract, :class =>"mceEditor" %>
+          
+        </div>
+      </fieldset>
+      <%= f.submit "Create" %>
+    <% end %>
+    
+
+
+  </div> <!-- .content padding -->
+</div> <!-- box -->
+
+
+
+

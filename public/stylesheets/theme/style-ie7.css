@@ -1,0 +1,28 @@
+/********************************************************************************************* 
+
+Making Internet Explorer 7 Behave
+
+*********************************************************************************************/
+
+@font-face {font-family: droidsans bold;src: url('fonts/DroidSans-Bold.eot');}
+@font-face {font-family: steelfish bd;src: url('fonts/steelfish bd.eot');}
+@font-face {font-family: Droidtalic;src: url('fonts/DroidSerif-Italic.eot');font-style: italic, oblique;}
+@font-face {font-family: Droid;src: url('fonts/DroidSerif-Regular.eot');font-style: normal;}
+@font-face {font-family: Droid;src: url('fonts/DroidSerif-BoldItalic.eot');font-weight: bold;font-style: italic, oblique;}
+@font-face {font-family: droidsans;src: url('fonts/DroidSans.eot');}
+@font-face {font-family: droidsans;src: url('fonts/DroidSans-Bold.eot');font-weight: bold;}
+@font-face {font-family: Cuprum;src: url('fonts/Cuprum.eot');}
+@font-face {font-family: Yanone Kaffeesatz Regular;src: url('fonts/YanoneKaffeesatz-Regular.eot');}
+@font-face {font-family: Yanone Kaffeesatz Bold;src: url('fonts/YanoneKaffeesatz-Bold.eot');}
+.ribbon em {
+display:none;
+filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+        M11=1.5320888862379554, M12=-1.3855752193730787,
+        M21=1.2855752193730796, M22=1.6320888862379558);
+		margin-top:-50px;
+		margin-left:-40px;
+		font-size:7px;
+}
+img {-ms-interpolation-mode: bicubic;}
+#top-titlemenu ul li {width:200px;}
+.sombra625{margin-top:-3px !important}

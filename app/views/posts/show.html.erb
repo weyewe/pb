@@ -1,0 +1,19 @@
+<p>
+  <span style="background-color:rgb(230,230,230); font-size:20px; padding:10px 20px; ">View Draft</span>
+</p>
+<div class="box">
+  <div class="header">
+    <h2><%= @post.title.html_safe %></h2>
+    <!--Draggable--> 
+    <span class="draggable"></span> 
+    <!--Toggle--> 
+    <span class="toggle"></span> 
+  </div>
+  
+  <div class="content padding"> 
+    <div class="viewer" style="width:640px; padding-right:28px;">
+      <%= @post.abstract.html_safe %>
+    </div>
+  </div> <!-- .content padding -->
+</div> <!-- box -->
+
